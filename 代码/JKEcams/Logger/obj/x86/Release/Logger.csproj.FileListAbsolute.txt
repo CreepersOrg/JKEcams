@@ -1,9 +1,0 @@
-Z:\Function\fa\bin_FA\Logger.dll
-E:\zp\another\WMS\捷控\JKProject\代码\JKEcams\Logger\obj\x86\Release\Logger.dll
-E:\zp\another\WMS\捷控\JKProject\代码\JKEcams\Logger\obj\x86\Release\Logger.pdb
-E:\zp\another\WMS\捷控\JKProject\代码\JKEcams\Logger\bin\x86\Release\Logger.dll
-E:\zp\another\WMS\捷控\JKProject\代码\JKEcams\Logger\bin\x86\Release\Logger.pdb
-E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\Logger\bin\x86\Release\Logger.dll
-E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\Logger\bin\x86\Release\Logger.pdb
-E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\Logger\obj\x86\Release\Logger.dll
-E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\Logger\obj\x86\Release\Logger.pdb
