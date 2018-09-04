@@ -253,3 +253,26 @@ E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\配置管理\ConfigManag
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\配置管理\ConfigManage\obj\x86\Release\ConfigManage.csproj.GenerateResource.Cache
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\配置管理\ConfigManage\obj\x86\Release\ConfigManage.dll
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\配置管理\ConfigManage\obj\x86\Release\ConfigManage.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\ConfigManage.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\ConfigManage.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\CtlDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\FlowCtlBaseModel.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\LogInterface.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\MesDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\ModuleCrossPnP.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\SysCfg.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\DevInterface.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\CtlDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\MesDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\ModuleCrossPnP.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\FlowCtlBaseModel.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\LogInterface.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\bin\Release\SysCfg.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\obj\x86\Release\ConfigManage.csprojResolveAssemblyReference.cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\obj\x86\Release\ConfigManage.Properties.Resources.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\obj\x86\Release\ConfigManage.ConfiManageView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\obj\x86\Release\ConfigManage.SysSettingView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\obj\x86\Release\ConfigManage.UserManageView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\obj\x86\Release\ConfigManage.csproj.GenerateResource.Cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\obj\x86\Release\ConfigManage.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\ConfigManage\obj\x86\Release\ConfigManage.pdb

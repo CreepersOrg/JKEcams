@@ -53,3 +53,10 @@ E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\基础框架\LicenceMana
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\基础框架\LicenceManager\obj\x86\Release\LicenceManager.csproj.GenerateResource.Cache
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\基础框架\LicenceManager\obj\x86\Release\LicenceManager.dll
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\基础框架\LicenceManager\obj\x86\Release\LicenceManager.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\基础框架\LicenceManager\bin\Release\LicenceManager.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\基础框架\LicenceManager\bin\Release\LicenceManager.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\基础框架\LicenceManager\obj\x86\Release\LicenceManager.csprojResolveAssemblyReference.cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\基础框架\LicenceManager\obj\x86\Release\LicenceManager.ActivativeFormView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\基础框架\LicenceManager\obj\x86\Release\LicenceManager.csproj.GenerateResource.Cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\基础框架\LicenceManager\obj\x86\Release\LicenceManager.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\基础框架\LicenceManager\obj\x86\Release\LicenceManager.pdb

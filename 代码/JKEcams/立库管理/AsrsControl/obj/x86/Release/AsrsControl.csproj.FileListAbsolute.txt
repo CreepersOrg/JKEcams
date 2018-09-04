@@ -358,3 +358,38 @@ E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\立库管理\AsrsControl
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\立库管理\AsrsControl\obj\x86\Release\AsrsControl.csproj.GenerateResource.Cache
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\立库管理\AsrsControl\obj\x86\Release\AsrsControl.dll
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\立库管理\AsrsControl\obj\x86\Release\AsrsControl.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\AsrsControl.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\AsrsControl.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\AsrsInterface.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\AsrsModel.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\CtlDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\DevAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\DevInterface.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\FlowCtlBaseModel.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\LogInterface.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\MesDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\ModuleCrossPnP.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\SysCfg.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\WCFClient.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\XWEDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\Logger.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\CtlDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\MesDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\ModuleCrossPnP.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\FlowCtlBaseModel.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\LogInterface.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\SysCfg.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\AsrsInterface.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\AsrsModel.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\WCFClient.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\XWEDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\bin\Release\Logger.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\obj\x86\Release\AsrsControl.csprojResolveAssemblyReference.cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\obj\x86\Release\AsrsControl.View.AsrsBatchSettingControl.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\obj\x86\Release\AsrsControl.AsrsCtlView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\obj\x86\Release\AsrsControl.View.AsrsMonitorUsercontrol.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\obj\x86\Release\AsrsControl.CtlTaskView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\obj\x86\Release\AsrsControl.PortBufferView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\obj\x86\Release\AsrsControl.csproj.GenerateResource.Cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\obj\x86\Release\AsrsControl.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsControl\obj\x86\Release\AsrsControl.pdb

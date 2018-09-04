@@ -11,18 +11,22 @@ namespace LicenceManager
     public class LicenceModel
     {
         [NonSerialized]
-        private static string keyStr = "zzal12k5";//秘钥
+        private static string keyStr = "zzal12k6";//秘钥
         [NonSerialized]
-        private static string vector = "80hjm76a";//向量
+        private static string vector = "80hjm766";//向量
         private string filePath = "";
+        private string LicVersion = "1.0.0";
         public LicenceModel(string key,string filePath)
         {
             LicenceModel.keyStr = key;
             this.filePath = filePath;
+            this.LicenceVersion = LicVersion;
         }
 
         public string LastRunTime { get; set; }
         public string LicenceEndTime { get; set; }
+
+        public string LicenceVersion { get; set; }
         public string Reserve { get; set; }
 
 
@@ -207,6 +211,11 @@ namespace LicenceManager
                 if (nowTime < lastRunTime)
                 {
                     reStr = "系统时钟错误！";
+                    return false;
+                }
+                if(this.LicenceVersion!= this.LicVersion)
+                {
+                    reStr = "授权版本错误";
                     return false;
                 }
             //    DateTime deadTime = licenceEndTime;

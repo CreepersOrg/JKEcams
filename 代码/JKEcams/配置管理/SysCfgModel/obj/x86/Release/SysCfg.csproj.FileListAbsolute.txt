@@ -97,3 +97,12 @@ E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\配置管理\SysCfgModel
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\配置管理\SysCfgModel\obj\x86\Release\SysCfg.csprojResolveAssemblyReference.cache
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\配置管理\SysCfgModel\obj\x86\Release\SysCfg.dll
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\配置管理\SysCfgModel\obj\x86\Release\SysCfg.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\SysCfgModel\bin\Release\SysCfg.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\SysCfgModel\bin\Release\SysCfg.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\SysCfgModel\bin\Release\CtlDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\SysCfgModel\bin\Release\MesDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\SysCfgModel\bin\Release\CtlDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\SysCfgModel\bin\Release\MesDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\SysCfgModel\obj\x86\Release\SysCfg.csprojResolveAssemblyReference.cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\SysCfgModel\obj\x86\Release\SysCfg.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\配置管理\SysCfgModel\obj\x86\Release\SysCfg.pdb

@@ -170,7 +170,7 @@ namespace AsrsControl
                         }
                     case SysCfg.EnumAsrsTaskType.紧急出库:
                         {
-                            string[] cellTargetPos = taskParamArray[3].Split(new string[] { "-" }, StringSplitOptions.RemoveEmptyEntries);
+                            string[] cellTargetPos = taskParamArray[2].Split(new string[] { "-" }, StringSplitOptions.RemoveEmptyEntries);
                             if (cellTargetPos == null || cellTargetPos.Count() < 3)
                             {
                                 reStr = "DCR出库参数解析错误";
@@ -181,9 +181,9 @@ namespace AsrsControl
                             layer = short.Parse(cellTargetPos[2]);
                             this.cellPos2 = new CellCoordModel(row, col, layer);
 
-                            if (taskParamArray.Count() > 4)
+                            if (taskParamArray.Count() > 3)
                             {
-                                string strGoods = taskParamArray[4];
+                                string strGoods = taskParamArray[3];
                                 this.inputCellGoods = strGoods.Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
                             }
                             if (houseName == EnumStoreHouse.A1库房.ToString())

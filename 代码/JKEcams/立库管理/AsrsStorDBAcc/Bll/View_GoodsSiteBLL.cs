@@ -167,8 +167,17 @@ namespace AsrsStorDBAcc.BLL
             {
                 strSql += " and StoreHouseAreaName='" + houseAreaName + "'";
             }
-            strSql +=" and GsEnabled =1 order by GoodsSiteColumn asc,"
-                    + "GoodsSiteRow asc,GoodsSiteLayer asc";
+            if(houseName =="B1库房")
+            {
+                strSql += " and GsEnabled =1 order by GoodsSiteColumn desc,"
+                 + "GoodsSiteRow asc,GoodsSiteLayer asc";
+            }
+            else
+            {
+                strSql += " and GsEnabled =1 order by GoodsSiteColumn asc,"
+                 + "GoodsSiteRow asc,GoodsSiteLayer asc";
+            }
+         
             List<View_GoodsSiteModel> goodsSiteList = GetModelList(strSql);
             if (goodsSiteList.Count > 0)
             {

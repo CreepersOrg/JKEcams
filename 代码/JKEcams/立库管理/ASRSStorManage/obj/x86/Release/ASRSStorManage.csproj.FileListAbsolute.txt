@@ -361,3 +361,36 @@ E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\立库管理\ASRSStorMan
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.csproj.GenerateResource.Cache
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.exe
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\GoogsSiteCfg.xml
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\ASRSStorManage.exe.config
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\ASRSStorManage.exe
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\ASRSStorManage.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\AsrsInterface.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\AsrsModel.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\AsrsStorage.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\AsrsStorDBAcc.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\LogInterface.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\MesDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\ModuleCrossPnP.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\MesDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\ModuleCrossPnP.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\LogInterface.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\AsrsStorDBAcc.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\AsrsInterface.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\AsrsModel.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\bin\Release\AsrsStorage.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.csprojResolveAssemblyReference.cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.Properties.Resources.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.TestForm1.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.View.AddStockListView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.View.EditGSStaView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.View.MoveHouseManulView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.View.MultiGsEnabledSet.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.View.OutBatchSetView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.View.StockManaView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.View.StockOperateView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.View.StorageView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.View.WaitDlg.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.csproj.GenerateResource.Cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.exe
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\ASRSStorManage\obj\x86\Release\ASRSStorManage.pdb

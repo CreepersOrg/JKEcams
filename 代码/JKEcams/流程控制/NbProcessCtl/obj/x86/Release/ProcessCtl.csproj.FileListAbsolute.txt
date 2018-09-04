@@ -442,3 +442,40 @@ E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\流程控制\NbProcessCt
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\流程控制\NbProcessCtl\obj\x86\Release\ProcessCtl.csproj.GenerateResource.Cache
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\流程控制\NbProcessCtl\obj\x86\Release\ProcessCtl.dll
 E:\zp\another\WMS\捷控\JKProject 1\代码\JKEcams_SVN\流程控制\NbProcessCtl\obj\x86\Release\ProcessCtl.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\ProcessCtl.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\ProcessCtl.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\AsrsControl.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\AsrsInterface.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\AsrsModel.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\CtlDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\DevAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\DevInterface.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\FlowCtlBaseModel.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\LogInterface.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\MesDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\ModuleCrossPnP.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\SysCfg.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\WCFClient.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\XWEDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\Logger.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\CtlDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\MesDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\ModuleCrossPnP.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\FlowCtlBaseModel.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\LogInterface.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\AsrsControl.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\AsrsInterface.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\AsrsModel.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\SysCfg.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\WCFClient.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\XWEDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\bin\Release1\Logger.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\obj\x86\Release\ProcessCtl.csprojResolveAssemblyReference.cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\obj\x86\Release\ProcessCtl.Properties.Resources.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\obj\x86\Release\ProcessCtl.ClosingWaitDlg.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\obj\x86\Release\ProcessCtl.ProcessMonitorView.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\obj\x86\Release\ProcessCtl.UserControlCtlNode.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\obj\x86\Release\ProcessCtl.WelcomeForm.resources
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\obj\x86\Release\ProcessCtl.csproj.GenerateResource.Cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\obj\x86\Release\ProcessCtl.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\流程控制\NbProcessCtl\obj\x86\Release\ProcessCtl.pdb
