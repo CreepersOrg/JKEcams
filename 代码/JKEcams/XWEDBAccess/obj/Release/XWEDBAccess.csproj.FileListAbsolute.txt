@@ -47,3 +47,14 @@ E:\zp\another\WMS\捷控\JKProject\代码\JKEcams\XWEDBAccess\bin\Release\CtlDBA
 E:\zp\another\WMS\捷控\JKProject\代码\JKEcams\XWEDBAccess\obj\Release\XWEDBAccess.csprojResolveAssemblyReference.cache
 E:\zp\another\WMS\捷控\JKProject\代码\JKEcams\XWEDBAccess\obj\Release\XWEDBAccess.dll
 E:\zp\another\WMS\捷控\JKProject\代码\JKEcams\XWEDBAccess\obj\Release\XWEDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\bin\Release\XWEDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\bin\Release\XWEDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\bin\Release\SysCfg.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\bin\Release\MesDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\bin\Release\CtlDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\bin\Release\SysCfg.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\bin\Release\MesDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\bin\Release\CtlDBAccess.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\obj\Release\XWEDBAccess.csprojResolveAssemblyReference.cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\obj\Release\XWEDBAccess.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\obj\Release\XWEDBAccess.pdb

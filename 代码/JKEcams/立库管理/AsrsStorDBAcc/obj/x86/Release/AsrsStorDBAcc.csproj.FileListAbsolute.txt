@@ -79,3 +79,12 @@ F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\Asr
 F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.csprojResolveAssemblyReference.cache
 F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.dll
 F:\NpWork\others\Creepers\JKProject\代码\JKEcams_zhou\JKEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsStorDBAcc.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsStorDBAcc.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsInterface.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsModel.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsInterface.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsModel.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.csprojResolveAssemblyReference.cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.pdb

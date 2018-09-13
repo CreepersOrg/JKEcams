@@ -28,3 +28,9 @@ E:\zp\another\WMS\捷控\JKProject\代码\JKEcams_SVN\NbssECAMS\bin\Release\WCFC
 E:\zp\another\WMS\捷控\JKProject\代码\JKEcams_SVN\WCFClient\obj\Release\WCFClient.csprojResolveAssemblyReference.cache
 E:\zp\another\WMS\捷控\JKProject\代码\JKEcams_SVN\WCFClient\obj\Release\WCFClient.dll
 E:\zp\another\WMS\捷控\JKProject\代码\JKEcams_SVN\WCFClient\obj\Release\WCFClient.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\NbssECAMS\bin\Release\WCFClient.dll.config
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\NbssECAMS\bin\Release\WCFClient.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\NbssECAMS\bin\Release\WCFClient.pdb
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\WCFClient\obj\Release\WCFClient.csprojResolveAssemblyReference.cache
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\WCFClient\obj\Release\WCFClient.dll
+F:\NpWork\others\Creepers\JKProject\代码\JKEcams\WCFClient\obj\Release\WCFClient.pdb

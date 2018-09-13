@@ -163,6 +163,23 @@ namespace CtlDBAccess.BLL
             //return dal.DataRowToModel(ds.Tables[0].Rows[0]);
             return GetModelList(strSql.ToString());
         }
+
+        public ControlTaskModel GetProcessWaitOrRunningTask(string houseName,int taskType, string devID)
+        {
+            StringBuilder strSql = new StringBuilder();
+            strSql.AppendFormat("TaskType={0} and (TaskStatus='待执行' or TaskStatus='执行中') and DeviceID='{1}' and tag1='{2}' ", taskType, devID, houseName);
+            strSql.Append("order by CreateTime asc");
+ 
+            List<ControlTaskModel> taskList= GetModelList(strSql.ToString());
+            if(taskList!=null&&taskList.Count>0)
+            {
+                return taskList[0];
+            }
+            else
+            {
+                return null;
+            }
+        }
         public List<ControlTaskModel> GetEmerTaskToRunList(string taskStatus, string devID)
         {
             StringBuilder strSql = new StringBuilder();

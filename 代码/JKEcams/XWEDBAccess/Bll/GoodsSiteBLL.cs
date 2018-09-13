@@ -216,7 +216,7 @@ namespace XWEDBAccess.BLL
             newModel.GoodsSiteName = gsName;
             newModel.OperateStatus = SysCfg.EnumOperateStatus.空闲.ToString();
             newModel.TestStatus = EnumTestStatus.待测试.ToString();
-            newModel.TestType = EnumTestType.无.ToString();
+            newModel.TestType = testType;
             newModel.UpdateTime = DateTime.Parse(DateTime.Now.ToString("yyyy-MM-dd HH:MM:ss"));
             if (gsModel == null)//插入
             {
@@ -247,7 +247,7 @@ namespace XWEDBAccess.BLL
             newModel.GoodsSiteName = gsName;
             newModel.OperateStatus = SysCfg.EnumOperateStatus.空闲.ToString();
             newModel.TestStatus = EnumTestStatus.待测试.ToString();
-            newModel.TestType = EnumTestType.无.ToString();
+            newModel.TestType = testType;
             newModel.UpdateTime = DateTime.Parse(DateTime.Now.ToString("yyyy-MM-dd HH:MM:ss"));
             newModel.Tag1 = rfid;
             if (gsModel == null)//插入

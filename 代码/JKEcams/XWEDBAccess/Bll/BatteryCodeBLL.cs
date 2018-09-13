@@ -161,17 +161,46 @@ namespace XWEDBAccess.BLL
             {
                 return false;
             }
-            DeleteByGSID(goodssiteID);
-            
+            //DeleteByGSID(goodssiteID);
 
-            for(int i=0;i<batteryIDs.Length;i++)
+
+            for (int i = 0; i < batteryIDs.Length; i++)
             {
-                XWEDBAccess.Model.BatteryCodeModel batteryModel = new Model.BatteryCodeModel();
-                batteryModel.GoodsSiteID = goodssiteID;
-                batteryModel.Code = batteryIDs[i];
-                Add(batteryModel);
+                XWEDBAccess.Model.BatteryCodeModel batteryModel = GetModelByCodeAndGSid(goodssiteID, batteryIDs[i]);
+                if (batteryModel == null)//插入
+                {
+                    batteryModel = new Model.BatteryCodeModel();
+                    batteryModel.GoodsSiteID = goodssiteID;
+                    batteryModel.Code = batteryIDs[i];
+                    Add(batteryModel);
+                }
+                else//更新
+                {
+                    batteryModel = new Model.BatteryCodeModel();
+                    batteryModel.GoodsSiteID = goodssiteID;
+                    batteryModel.Code = batteryIDs[i];
+                    Update(batteryModel);
+                }
+
+
             }
             return true;
+        }
+        /// <summary>
+        /// 得到一个对象实体
+        /// </summary>
+        public XWEDBAccess.Model.BatteryCodeModel GetModelByCodeAndGSid(long gsID,string Code)
+        {
+            string strWhere = " GoodsSiteID = " + gsID + " and Code='" + Code + "'";
+            List<XWEDBAccess.Model.BatteryCodeModel> batteryList = GetModelList(strWhere);
+            if(batteryList!=null&&batteryList.Count>0)
+            {
+                return batteryList[0];
+            }
+            else
+            {
+                return null;
+            }
         }
         public DataTable GetBatteryData(int goodsSiteID)
         {

@@ -8,7 +8,8 @@ using System.Text;
 using System.Configuration;
 using MesDBAccess.BLL;
 using MesDBAccess.Model;
-
+using CtlDBAccess.BLL;
+using CtlDBAccess.Model;
 
 namespace AsrsControl
 {
@@ -17,6 +18,7 @@ namespace AsrsControl
         public static CellCoordModel AHouseDCRStation = null;//A库房DCR测试工位
         public static CellCoordModel BHouseDCRStation = null;//B库房DCR测试工位
         private AsrsCtlModel AsrsModel { get; set; }
+        private ControlTaskBll bllControlTask = new ControlTaskBll();
         private XWEDBAccess.BLL.GoodsSiteBLL xweGsBll = new XWEDBAccess.BLL.GoodsSiteBLL();
         private XWEDBAccess.BLL.BatteryCodeBLL xweBatteryCodeBll = new XWEDBAccess.BLL.BatteryCodeBLL();
         private XWEDBAccess.BLL.View_GSBatteryBLL xweViewGsBatteryBll = new XWEDBAccess.BLL.View_GSBatteryBLL();
@@ -121,23 +123,23 @@ namespace AsrsControl
           
         }
 
-        /// <summary>
-        /// 充放电任务完成后的逻辑处理
-        /// </summary>
-        /// <param name="houseName"></param>
-        /// <param name="goodsSiteName"></param>
-        /// <returns></returns>
-        public bool PowerTestCptLogic(string houseName, string goodsSiteName)
-        {
-            if (xweGsBll.UpdateGs(houseName, goodsSiteName,EnumOperateStatus.空闲.ToString()
-                ,EnumTestStatus.待测试.ToString(),EnumTestType.无.ToString()) == false)//空货位的时候测试类型为无
-            {
-                this.AsrsModel.LogRecorder.AddDebugLog("新威尔流程监控", "充放电完成完成后初始化货位信息失败！");
-                return false;
-            }
+        ///// <summary>
+        ///// 充放电任务完成后的逻辑处理
+        ///// </summary>
+        ///// <param name="houseName"></param>
+        ///// <param name="goodsSiteName"></param>
+        ///// <returns></returns>
+        //public bool PowerTestCptLogic(string houseName, string goodsSiteName)
+        //{
+        //    if (xweGsBll.UpdateGs(houseName, goodsSiteName,EnumOperateStatus.空闲.ToString()
+        //        ,EnumTestStatus.待测试.ToString(),EnumTestType.无.ToString()) == false)//空货位的时候测试类型为无
+        //    {
+        //        this.AsrsModel.LogRecorder.AddDebugLog("新威尔流程监控", "充放电完成完成后初始化货位信息失败！");
+        //        return false;
+        //    }
 
-            return true;
-        }
+        //    return true;
+        //}
         /// <summary>
         /// DCR出库完成逻辑，即到达DCR测试工位
         /// </summary>
@@ -228,7 +230,11 @@ namespace AsrsControl
         {
             try
             {
-                List<XWEDBAccess.Model.GoodsSiteModel> xweGsList = xweGsBll.GetModelList("HouseName = '" + this.AsrsModel.HouseName + "' and OperateStatus != '锁定'" );
+                List<XWEDBAccess.Model.GoodsSiteModel> xweGsList = xweGsBll.GetModelList("HouseName = '" 
+                    + this.AsrsModel.HouseName + "' and OperateStatus != '锁定' and (TestStatus = '报警' or TestStatus='成功')");
+
+                //List<XWEDBAccess.Model.GoodsSiteModel> xweGsList = xweGsBll.GetModelList("HouseName = '" + this.AsrsModel.HouseName + "' and (TestStatus = '报警' or TestStatus='成功')");
+
                 if (xweGsList == null || xweGsList.Count == 0)
                 {
                     return;
@@ -240,7 +246,6 @@ namespace AsrsControl
                     {
                         AutoOutHouseGsTask(xmeGs, (SysCfg.EnumTestType)Enum.Parse(typeof(SysCfg.EnumTestType), xmeGs.TestType));
                     }
-                 
                     else if (xmeGs.TestStatus.Trim() == SysCfg.EnumTestStatus.报警.ToString())//报警处理,生成紧急出库任务
                     {
                         AutoEmerOutHouseTask(xmeGs);
@@ -379,13 +384,20 @@ namespace AsrsControl
 
             if (testType == SysCfg.EnumTestType.充放电测试)
             {
+                ControlTaskModel dcrWaitOrRunningTask = null;
                 if (this.AsrsModel.HouseName == EnumStoreHouse.A1库房.ToString())
                 {
+                    dcrWaitOrRunningTask=   bllControlTask.GetProcessWaitOrRunningTask(EnumStoreHouse.A1库房.ToString(), 4, "1001");
                      cell2 =AHouseDCRStation;//特殊固定的位置
                 }
                 else//b1库房
                 {
+                    dcrWaitOrRunningTask = bllControlTask.GetProcessWaitOrRunningTask(EnumStoreHouse.A1库房.ToString(), 4, "1001");
                      cell2 = BHouseDCRStation;//特殊固定的位置
+                }
+                if (dcrWaitOrRunningTask!=null)//如果已经有dcr执行中或者待执行的任务就不在生成了，同一个工位的锁定
+                {
+                    return false;
                 }
 
 
