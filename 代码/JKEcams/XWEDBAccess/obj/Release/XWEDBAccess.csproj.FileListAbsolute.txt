@@ -58,3 +58,14 @@ F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\bin\Release\CtlDB
 F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\obj\Release\XWEDBAccess.csprojResolveAssemblyReference.cache
 F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\obj\Release\XWEDBAccess.dll
 F:\NpWork\others\Creepers\JKProject\代码\JKEcams\XWEDBAccess\obj\Release\XWEDBAccess.pdb
+E:\软件\MineProject\Projects\捷控\JKEcams\XWEDBAccess\bin\Release\XWEDBAccess.dll
+E:\软件\MineProject\Projects\捷控\JKEcams\XWEDBAccess\bin\Release\XWEDBAccess.pdb
+E:\软件\MineProject\Projects\捷控\JKEcams\XWEDBAccess\bin\Release\SysCfg.dll
+E:\软件\MineProject\Projects\捷控\JKEcams\XWEDBAccess\bin\Release\MesDBAccess.dll
+E:\软件\MineProject\Projects\捷控\JKEcams\XWEDBAccess\bin\Release\CtlDBAccess.dll
+E:\软件\MineProject\Projects\捷控\JKEcams\XWEDBAccess\bin\Release\SysCfg.pdb
+E:\软件\MineProject\Projects\捷控\JKEcams\XWEDBAccess\bin\Release\MesDBAccess.pdb
+E:\软件\MineProject\Projects\捷控\JKEcams\XWEDBAccess\bin\Release\CtlDBAccess.pdb
+E:\软件\MineProject\Projects\捷控\JKEcams\XWEDBAccess\obj\Release\XWEDBAccess.csprojResolveAssemblyReference.cache
+E:\软件\MineProject\Projects\捷控\JKEcams\XWEDBAccess\obj\Release\XWEDBAccess.dll
+E:\软件\MineProject\Projects\捷控\JKEcams\XWEDBAccess\obj\Release\XWEDBAccess.pdb

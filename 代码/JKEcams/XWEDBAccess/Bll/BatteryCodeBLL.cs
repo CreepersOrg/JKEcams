@@ -62,7 +62,7 @@ namespace XWEDBAccess.BLL
             return dal.GetModel(BatteryCodeID);
         }
 
-     
+      
 
         /// <summary>
         /// 获得数据列表
@@ -95,7 +95,7 @@ namespace XWEDBAccess.BLL
             int rowsCount = dt.Rows.Count;
             if (rowsCount > 0)
             {
-                XWEDBAccess.Model.BatteryCodeModel model;
+               XWEDBAccess.Model.BatteryCodeModel model;
                 for (int n = 0; n < rowsCount; n++)
                 {
                     model = dal.DataRowToModel(dt.Rows[n]);
@@ -172,6 +172,7 @@ namespace XWEDBAccess.BLL
                     batteryModel = new Model.BatteryCodeModel();
                     batteryModel.GoodsSiteID = goodssiteID;
                     batteryModel.Code = batteryIDs[i];
+                    batteryModel.Channel = (i + 1).ToString();
                     Add(batteryModel);
                 }
                 else//更新
@@ -179,6 +180,7 @@ namespace XWEDBAccess.BLL
                     batteryModel = new Model.BatteryCodeModel();
                     batteryModel.GoodsSiteID = goodssiteID;
                     batteryModel.Code = batteryIDs[i];
+                    batteryModel.Channel = (i + 1).ToString();
                     Update(batteryModel);
                 }
 

@@ -407,6 +407,7 @@ namespace ProcessCtl
                     productModel = productOnlineBll.GetModel(batteryID);
                     productModel.productID = batteryID;
                     productModel.palletID = this.rfidUID;
+                    productModel.batchName = (i + 1).ToString();
                     productModel.modifyTime = System.DateTime.Now;
                     productModel.processStepID = this.mesProcessStepID[0];
                     productModel.productCata = SysCfg.EnumProductCata.电芯.ToString();

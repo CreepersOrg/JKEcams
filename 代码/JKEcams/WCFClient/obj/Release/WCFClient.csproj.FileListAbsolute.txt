@@ -34,3 +34,9 @@ F:\NpWork\others\Creepers\JKProject\代码\JKEcams\NbssECAMS\bin\Release\WCFClie
 F:\NpWork\others\Creepers\JKProject\代码\JKEcams\WCFClient\obj\Release\WCFClient.csprojResolveAssemblyReference.cache
 F:\NpWork\others\Creepers\JKProject\代码\JKEcams\WCFClient\obj\Release\WCFClient.dll
 F:\NpWork\others\Creepers\JKProject\代码\JKEcams\WCFClient\obj\Release\WCFClient.pdb
+E:\软件\MineProject\Projects\捷控\JKEcams\NbssECAMS\bin\Release\WCFClient.dll.config
+E:\软件\MineProject\Projects\捷控\JKEcams\NbssECAMS\bin\Release\WCFClient.dll
+E:\软件\MineProject\Projects\捷控\JKEcams\NbssECAMS\bin\Release\WCFClient.pdb
+E:\软件\MineProject\Projects\捷控\JKEcams\WCFClient\obj\Release\WCFClient.csprojResolveAssemblyReference.cache
+E:\软件\MineProject\Projects\捷控\JKEcams\WCFClient\obj\Release\WCFClient.dll
+E:\软件\MineProject\Projects\捷控\JKEcams\WCFClient\obj\Release\WCFClient.pdb

@@ -162,7 +162,7 @@ namespace AsrsControl
             }
 
             XWEDBAccess.Model.GoodsSiteModel gsm = xweGsBll.GetModel(houseName, powerGsm);
-            List<XWEDBAccess.Model.BatteryCodeModel> batteryList = xweBatteryCodeBll.GetModelList("GoodsSiteID = " + gsm.GoodsSiteID);
+            List<XWEDBAccess.Model.BatteryCodeModel> batteryList = xweBatteryCodeBll.GetModelList("GoodsSiteID = " + gsm.GoodsSiteID + " order by Channel asc");
             string[] batteryCodes = new string[batteryList.Count];
             for (int i = 0; i < batteryList.Count; i++)
             {
@@ -171,7 +171,7 @@ namespace AsrsControl
             XWEDBAccess.Model.GoodsSiteModel dcrGsmModel = xweGsBll.GetModel(houseName, dcrGsm);
             dcrGsmModel.Tag1 = rfid;
             xweGsBll.Update(dcrGsmModel);
-            //向中间库中插入托盘条码及电芯条码,同时将有货位的电芯条码清空
+            //向中间库中插入托盘条码及电芯条码,
             if (xweBatteryCodeBll.AddBattery((int)dcrGsmModel.GoodsSiteID, batteryCodes) == false)
             {
                 this.AsrsModel.LogRecorder.AddDebugLog("威尔流程监控", "向电池条码表中添加数据失败！");
@@ -201,6 +201,7 @@ namespace AsrsControl
 
         public bool DCRTestCptLogic(string houseName)
         {
+            //this.AsrsModel.LogRecorder.AddDebugLog("A1库堆垛机", "20");
             string goodsSiteName = "";
             if (houseName == EnumStoreHouse.A1库房.ToString())
             {
@@ -210,12 +211,14 @@ namespace AsrsControl
             {
                 goodsSiteName = BHouseDCRStation.Row.ToString() + "-" + BHouseDCRStation.Col.ToString() + "-" + BHouseDCRStation.Layer.ToString();
             }
+            //this.AsrsModel.LogRecorder.AddDebugLog("A1库堆垛机", "21");
             //上报德赛数据
             if (xweGsBll.InitGS(houseName, goodsSiteName, SysCfg.EnumTestType.无.ToString()) == false)//
             {
                 this.AsrsModel.LogRecorder.AddDebugLog("新威尔流程监控", "DCR测试完成后更新货位信息失败！");
                 return false;
             }
+            //this.AsrsModel.LogRecorder.AddDebugLog("A1库堆垛机", "22");
             return true;
         }
     
@@ -318,6 +321,8 @@ namespace AsrsControl
                         {
                             reports += "NG";
                         }
+                        reports += singleBattery.Electricity + ",";
+                        reports += singleBattery.Temperature ;
 
                         if (this.AsrsModel.HouseName == EnumStoreHouse.A1库房.ToString())
                         {
@@ -392,7 +397,7 @@ namespace AsrsControl
                 }
                 else//b1库房
                 {
-                    dcrWaitOrRunningTask = bllControlTask.GetProcessWaitOrRunningTask(EnumStoreHouse.A1库房.ToString(), 4, "1001");
+                    dcrWaitOrRunningTask = bllControlTask.GetProcessWaitOrRunningTask(EnumStoreHouse.B1库房.ToString(), 4, "1002");
                      cell2 = BHouseDCRStation;//特殊固定的位置
                 }
                 if (dcrWaitOrRunningTask!=null)//如果已经有dcr执行中或者待执行的任务就不在生成了，同一个工位的锁定
@@ -420,6 +425,21 @@ namespace AsrsControl
             }
             else if (testType == SysCfg.EnumTestType.DCR测试)//正常出库
             {
+
+                ControlTaskModel dcrOutWaitOrRunningTask = null;
+                if (this.AsrsModel.HouseName == EnumStoreHouse.A1库房.ToString())
+                {
+                    dcrOutWaitOrRunningTask = bllControlTask.GetProcessWaitOrRunningTask(EnumStoreHouse.A1库房.ToString(), 3, "1001");
+                }
+                else//b1库房
+                {
+                    dcrOutWaitOrRunningTask = bllControlTask.GetProcessWaitOrRunningTask(EnumStoreHouse.B1库房.ToString(), 3, "1002");
+                }
+                if (dcrOutWaitOrRunningTask != null)//如果已经有dcr执行中或者待执行的任务就不在生成了，同一个工位的锁定
+                {
+                    return false;
+                }
+
                 if (this.AsrsModel.GenerateOutputTask(cell, null, SysCfg.EnumAsrsTaskType.DCR出库, true) == false)
                 {
                     this.AsrsModel.LogRecorder.AddDebugLog("库存控制模块", "生成DCR测试任务失败！");

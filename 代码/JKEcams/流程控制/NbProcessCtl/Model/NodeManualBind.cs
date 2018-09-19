@@ -384,6 +384,8 @@ namespace ProcessCtl
 
        bool InsertToDB(string[] batteryList,string rfid,string hmCode)
        {
+           int batteryIndex = 1;
+           int gourpBatteryIndex = 1;
            for (int i = 0; i < batteryList.Length + 1; i++)
            {
                string batteryID = string.Empty;
@@ -406,10 +408,15 @@ namespace ProcessCtl
                    productModel.processStepID = this.mesProcessStepID[0];
                    if (i < batteryList.Length)
                    {
+                       productModel.batchName = batteryIndex.ToString();
+                       batteryIndex++;
                        productModel.productCata = SysCfg.EnumProductCata.电芯.ToString();
+                      
                    }
                    else
                    {
+                       productModel.batchName = gourpBatteryIndex.ToString();
+                       gourpBatteryIndex++;
                        productModel.productCata = SysCfg.EnumProductCata.模组.ToString();
                    }
                    
@@ -431,10 +438,14 @@ namespace ProcessCtl
                    productModel.processStepID = this.mesProcessStepID[0];
                    if (i < batteryList.Length)
                    {
+                       productModel.batchName = batteryIndex.ToString();
+                       batteryIndex++;
                        productModel.productCata = SysCfg.EnumProductCata.电芯.ToString();
                    }
                    else
                    {
+                       productModel.batchName = gourpBatteryIndex.ToString();
+                       gourpBatteryIndex++;
                        productModel.productCata = SysCfg.EnumProductCata.模组.ToString();
                    }
                    productModel.palletBinded = true;

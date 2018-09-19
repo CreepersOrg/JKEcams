@@ -2184,7 +2184,7 @@ namespace AsrsControl
                             this.asrsResManage.GetLogicAreaName(this.houseName, taskParamModel.CellPos1, ref logicArea);
                             //入库后需要更新新威尔中间数据表及上报德赛MES
                             string rfid = taskParamModel.InputCellGoods[0];
-                            List<MesDBAccess.Model.ProductOnlineModel> productList = this.productOnlineBll.GetModelList(string.Format("palletID='{0}' and palletBinded=1 ", rfid));
+                            List<MesDBAccess.Model.ProductOnlineModel> productList = this.productOnlineBll.GetModelList(string.Format("palletID='{0}' and palletBinded=1 and productCata='模组' order by batchName asc", rfid));
 
                             string[] codeList = new string[productList.Count];
                             for (int i = 0; i < productList.Count; i++)
@@ -2254,15 +2254,17 @@ namespace AsrsControl
                         }
                     case (int)SysCfg.EnumAsrsTaskType.DCR测试:
                         {
+                            //logRecorder.AddDebugLog(nodeName, "31");
                             if (OutHouseTaskCptProcess(ctlTask, taskParamModel, ref  reStr) == false)
                             {
                                 return false;
                             }
+                            //logRecorder.AddDebugLog(nodeName, "32");
                             string powerGsm = taskParamModel.CellPos1.Row + "-" + taskParamModel.CellPos1.Col + "-" + taskParamModel.CellPos1.Layer;
                             //需要更新新威尔中间数据库，开始DCR检测
                             string dcrGsm = taskParamModel.CellPos2.Row + "-" + taskParamModel.CellPos2.Col + "-" + taskParamModel.CellPos2.Layer;
                             string rfid = taskParamModel.InputCellGoods[0];
-
+                            //logRecorder.AddDebugLog(nodeName, "32");
                             //需要上报德赛MES START
                             if (mesenable != 0)
                             {
@@ -2281,8 +2283,9 @@ namespace AsrsControl
                                 }
                             }
                             //需要上报德赛MES
-
+                            //logRecorder.AddDebugLog(nodeName, "34");
                             this.XweProcessModel.DCROutHouseCpt(this.houseName, powerGsm, dcrGsm, rfid);
+                            //logRecorder.AddDebugLog(nodeName, "35");
                             break;
                         }
                     case (int)SysCfg.EnumAsrsTaskType.紧急出库:
@@ -2306,14 +2309,25 @@ namespace AsrsControl
                         }
                     case (int)SysCfg.EnumAsrsTaskType.DCR出库://DCR测试完成
                         {
+                            //logRecorder.AddDebugLog(nodeName, "11");
                             logRecorder.AddLog(new LogInterface.LogModel(nodeName, SysCfg.EnumAsrsTaskType.DCR出库.ToString(), LogInterface.EnumLoglevel.提示));
                             string gsName = taskParamModel.CellPos1.Row + "-" + taskParamModel.CellPos1.Col + "-" + taskParamModel.CellPos1.Layer;
+                            //logRecorder.AddDebugLog(nodeName, "12");
                             //DCR测试完成
                             this.XweProcessModel.DCRTestCptLogic(this.houseName);
+                            //logRecorder.AddDebugLog(nodeName, "13");
+                            if (taskParamModel.InputCellGoods!=null && taskParamModel.InputCellGoods.Count()>0)
+                            {
+                                UpdateOnlineProductInfo(taskParamModel.InputCellGoods[0].Trim(), taskParamModel.MESStep, string.Empty, string.Empty, string.Empty);
+                            
+                            }
+                            //logRecorder.AddDebugLog(nodeName, "14");
+                            if (taskParamModel.InputCellGoods != null && taskParamModel.InputCellGoods.Count() > 0)
+                            {
 
-                            UpdateOnlineProductInfo(taskParamModel.InputCellGoods[0].Trim(), taskParamModel.MESStep, string.Empty, string.Empty, string.Empty);
-                            AddProduceRecord(taskParamModel.InputCellGoods[0].Trim(), taskParamModel.MESStep);
-
+                                AddProduceRecord(taskParamModel.InputCellGoods[0].Trim(), taskParamModel.MESStep);
+                            }
+                            //logRecorder.AddDebugLog(nodeName, "15");
                             break;
                         }
                     case (int)SysCfg.EnumAsrsTaskType.移库:
@@ -2400,7 +2414,7 @@ namespace AsrsControl
             }
             catch (Exception ex)
             {
-                logRecorder.AddLog(new LogInterface.LogModel(nodeName, "任务完成处理异常，" + ex.ToString(), LogInterface.EnumLoglevel.错误));
+                logRecorder.AddLog(new LogInterface.LogModel(nodeName, "任务完成处理异常，" + ex.StackTrace, LogInterface.EnumLoglevel.错误));
 
                 return false;
             }

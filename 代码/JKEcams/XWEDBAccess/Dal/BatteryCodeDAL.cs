@@ -74,6 +74,16 @@ namespace XWEDBAccess.DAL
                 strSql1.Append("TestResult,");
                 strSql2.Append("'" + model.TestResult + "',");
             }
+            if (model.Temperature != null)
+            {
+                strSql1.Append("Temperature,");
+                strSql2.Append("'" + model.Temperature + "',");
+            }
+            if (model.Electricity != null)
+            {
+                strSql1.Append("Electricity,");
+                strSql2.Append("'" + model.Electricity + "',");
+            }
             if (model.TestTime != null)
             {
                 strSql1.Append("TestTime,");
@@ -189,6 +199,22 @@ namespace XWEDBAccess.DAL
             {
                 strSql.Append("TestResult= null ,");
             }
+            if (model.Temperature != null)
+            {
+                strSql.Append("Temperature='" + model.Temperature + "',");
+            }
+            else
+            {
+                strSql.Append("Temperature= null ,");
+            }
+            if (model.Electricity != null)
+            {
+                strSql.Append("Electricity='" + model.Electricity + "',");
+            }
+            else
+            {
+                strSql.Append("Electricity= null ,");
+            }
             if (model.TestTime != null)
             {
                 strSql.Append("TestTime='" + model.TestTime + "',");
@@ -295,10 +321,10 @@ namespace XWEDBAccess.DAL
         {
             StringBuilder strSql = new StringBuilder();
             strSql.Append("select  top 1  ");
-            strSql.Append(" BatteryCodeID,Code,GoodsSiteID,Channel,Pressure,InnerRC,Power,Capcity,TestResult,TestTime,Tag1,Tag2,Tag3,Tag4,Tag5 ");
+            strSql.Append(" BatteryCodeID,Code,GoodsSiteID,Channel,Pressure,InnerRC,Power,Capcity,TestResult,Temperature,Electricity,TestTime,Tag1,Tag2,Tag3,Tag4,Tag5 ");
             strSql.Append(" from BatteryCode ");
             strSql.Append(" where BatteryCodeID=" + BatteryCodeID + "");
-            XWEDBAccess.Model.BatteryCodeModel model = new XWEDBAccess.Model.BatteryCodeModel();
+           XWEDBAccess.Model.BatteryCodeModel model = new XWEDBAccess.Model.BatteryCodeModel();
             DataSet ds = DbHelperSQL.Query(strSql.ToString());
             if (ds.Tables[0].Rows.Count > 0)
             {
@@ -315,7 +341,7 @@ namespace XWEDBAccess.DAL
         /// </summary>
         public XWEDBAccess.Model.BatteryCodeModel DataRowToModel(DataRow row)
         {
-            XWEDBAccess.Model.BatteryCodeModel model = new XWEDBAccess.Model.BatteryCodeModel();
+           XWEDBAccess.Model.BatteryCodeModel model = new XWEDBAccess.Model.BatteryCodeModel();
             if (row != null)
             {
                 if (row["BatteryCodeID"] != null && row["BatteryCodeID"].ToString() != "")
@@ -354,6 +380,14 @@ namespace XWEDBAccess.DAL
                 {
                     model.TestResult = row["TestResult"].ToString();
                 }
+                if (row["Temperature"] != null)
+                {
+                    model.Temperature = row["Temperature"].ToString();
+                }
+                if (row["Electricity"] != null)
+                {
+                    model.Electricity = row["Electricity"].ToString();
+                }
                 if (row["TestTime"] != null && row["TestTime"].ToString() != "")
                 {
                     model.TestTime = DateTime.Parse(row["TestTime"].ToString());
@@ -388,7 +422,7 @@ namespace XWEDBAccess.DAL
         public DataSet GetList(string strWhere)
         {
             StringBuilder strSql = new StringBuilder();
-            strSql.Append("select BatteryCodeID,Code,GoodsSiteID,Channel,Pressure,InnerRC,Power,Capcity,TestResult,TestTime,Tag1,Tag2,Tag3,Tag4,Tag5 ");
+            strSql.Append("select BatteryCodeID,Code,GoodsSiteID,Channel,Pressure,InnerRC,Power,Capcity,TestResult,Temperature,Electricity,TestTime,Tag1,Tag2,Tag3,Tag4,Tag5 ");
             strSql.Append(" FROM BatteryCode ");
             if (strWhere.Trim() != "")
             {
@@ -408,7 +442,7 @@ namespace XWEDBAccess.DAL
             {
                 strSql.Append(" top " + Top.ToString());
             }
-            strSql.Append(" BatteryCodeID,Code,GoodsSiteID,Channel,Pressure,InnerRC,Power,Capcity,TestResult,TestTime,Tag1,Tag2,Tag3,Tag4,Tag5 ");
+            strSql.Append(" BatteryCodeID,Code,GoodsSiteID,Channel,Pressure,InnerRC,Power,Capcity,TestResult,Temperature,Electricity,TestTime,Tag1,Tag2,Tag3,Tag4,Tag5 ");
             strSql.Append(" FROM BatteryCode ");
             if (strWhere.Trim() != "")
             {

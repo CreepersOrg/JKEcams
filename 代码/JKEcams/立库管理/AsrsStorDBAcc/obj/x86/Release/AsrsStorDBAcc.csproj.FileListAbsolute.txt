@@ -88,3 +88,12 @@ F:\NpWork\others\Creepers\JKProject\代码\JKEcams\立库管理\AsrsStorDBAcc\bi
 F:\NpWork\others\Creepers\JKProject\代码\JKEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.csprojResolveAssemblyReference.cache
 F:\NpWork\others\Creepers\JKProject\代码\JKEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.dll
 F:\NpWork\others\Creepers\JKProject\代码\JKEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.pdb
+E:\软件\MineProject\Projects\捷控\JKEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsStorDBAcc.dll
+E:\软件\MineProject\Projects\捷控\JKEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsStorDBAcc.pdb
+E:\软件\MineProject\Projects\捷控\JKEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsInterface.dll
+E:\软件\MineProject\Projects\捷控\JKEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsModel.dll
+E:\软件\MineProject\Projects\捷控\JKEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsInterface.pdb
+E:\软件\MineProject\Projects\捷控\JKEcams\立库管理\AsrsStorDBAcc\bin\Release\AsrsModel.pdb
+E:\软件\MineProject\Projects\捷控\JKEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.csprojResolveAssemblyReference.cache
+E:\软件\MineProject\Projects\捷控\JKEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.dll
+E:\软件\MineProject\Projects\捷控\JKEcams\立库管理\AsrsStorDBAcc\obj\x86\Release\AsrsStorDBAcc.pdb
