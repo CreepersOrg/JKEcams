@@ -2184,8 +2184,17 @@ namespace AsrsControl
                             this.asrsResManage.GetLogicAreaName(this.houseName, taskParamModel.CellPos1, ref logicArea);
                             //入库后需要更新新威尔中间数据表及上报德赛MES
                             string rfid = taskParamModel.InputCellGoods[0];
-                            List<MesDBAccess.Model.ProductOnlineModel> productList = this.productOnlineBll.GetModelList(string.Format("palletID='{0}' and palletBinded=1 and productCata='模组' order by batchName asc", rfid));
+                            List<MesDBAccess.Model.ProductOnlineModel> productList = null;
+                            if (this.houseName == EnumStoreHouse.A1库房.ToString())
+                            {
+                               productList= this.productOnlineBll.GetModelList(string.Format("palletID='{0}' and palletBinded=1 and productCata='电芯' order by batchName asc", rfid));
 
+                            }
+                            else
+                            {
+                                productList = this.productOnlineBll.GetModelList(string.Format("palletID='{0}' and palletBinded=1 and productCata='模组' order by batchName asc", rfid));
+
+                            }
                             string[] codeList = new string[productList.Count];
                             for (int i = 0; i < productList.Count; i++)
                             {
