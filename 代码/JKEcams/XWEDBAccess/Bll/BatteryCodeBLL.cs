@@ -166,13 +166,14 @@ namespace XWEDBAccess.BLL
 
             for (int i = 0; i < batteryIDs.Length; i++)
             {
-                XWEDBAccess.Model.BatteryCodeModel batteryModel =GetModelByGSID (goodssiteID);
+                string channel = (i + 1).ToString();
+                XWEDBAccess.Model.BatteryCodeModel batteryModel = GetModelByGSIDAndChannel(goodssiteID, channel);
                 if (batteryModel == null)//插入
                 {
                     batteryModel = new Model.BatteryCodeModel();
                     batteryModel.GoodsSiteID = goodssiteID;
                     batteryModel.Code = batteryIDs[i];
-                    batteryModel.Channel = (i + 1).ToString();
+                    batteryModel.Channel = channel;
                     Add(batteryModel);
                 }
                 else//更新
@@ -180,7 +181,7 @@ namespace XWEDBAccess.BLL
                     batteryModel = new Model.BatteryCodeModel();
                     batteryModel.GoodsSiteID = goodssiteID;
                     batteryModel.Code = batteryIDs[i];
-                    batteryModel.Channel = (i + 1).ToString();
+                    batteryModel.Channel = channel;
                     Update(batteryModel);
                 }
 
@@ -191,9 +192,9 @@ namespace XWEDBAccess.BLL
         /// <summary>
         /// 得到一个对象实体
         /// </summary>
-        public XWEDBAccess.Model.BatteryCodeModel GetModelByGSID(long gsID)
+        public XWEDBAccess.Model.BatteryCodeModel GetModelByGSIDAndChannel(long gsID,string channel)
         {
-            string strWhere = " GoodsSiteID = " + gsID;
+            string strWhere = " GoodsSiteID = " + gsID + " and Channel ='" + channel +"'";
             List<XWEDBAccess.Model.BatteryCodeModel> batteryList = GetModelList(strWhere);
             if(batteryList!=null&&batteryList.Count>0)
             {
