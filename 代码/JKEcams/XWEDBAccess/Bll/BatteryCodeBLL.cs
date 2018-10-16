@@ -166,7 +166,7 @@ namespace XWEDBAccess.BLL
 
             for (int i = 0; i < batteryIDs.Length; i++)
             {
-                XWEDBAccess.Model.BatteryCodeModel batteryModel = GetModelByCodeAndGSid(goodssiteID, batteryIDs[i]);
+                XWEDBAccess.Model.BatteryCodeModel batteryModel =GetModelByGSID (goodssiteID);
                 if (batteryModel == null)//插入
                 {
                     batteryModel = new Model.BatteryCodeModel();
@@ -191,9 +191,9 @@ namespace XWEDBAccess.BLL
         /// <summary>
         /// 得到一个对象实体
         /// </summary>
-        public XWEDBAccess.Model.BatteryCodeModel GetModelByCodeAndGSid(long gsID,string Code)
+        public XWEDBAccess.Model.BatteryCodeModel GetModelByGSID(long gsID)
         {
-            string strWhere = " GoodsSiteID = " + gsID + " and Code='" + Code + "'";
+            string strWhere = " GoodsSiteID = " + gsID;
             List<XWEDBAccess.Model.BatteryCodeModel> batteryList = GetModelList(strWhere);
             if(batteryList!=null&&batteryList.Count>0)
             {
