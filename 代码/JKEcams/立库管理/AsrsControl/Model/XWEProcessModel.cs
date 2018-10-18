@@ -404,7 +404,11 @@ namespace AsrsControl
                 {
                     return false;
                 }
-
+                //在生成dcr测试的时候要判断下DCR测试工位是否有料，在新威尔交互的数据表中记录dcr工位的测试类型为无的时候证明已经测试完并出库完成
+                if (IsDCRStationValid(this.AsrsModel.HouseName) == false)
+                {
+                    return false;
+                }
 
                 if (this.AsrsModel.GenerateOutputTask(cell, cell2, SysCfg.EnumAsrsTaskType.DCR测试, true) == false)
                 {
@@ -439,7 +443,7 @@ namespace AsrsControl
                 {
                     return false;
                 }
-
+             
                 if (this.AsrsModel.GenerateOutputTask(cell, null, SysCfg.EnumAsrsTaskType.DCR出库, true) == false)
                 {
                     this.AsrsModel.LogRecorder.AddDebugLog("库存控制模块", "生成DCR测试任务失败！");
@@ -457,6 +461,33 @@ namespace AsrsControl
                 return false;
             }
 
+        }
+        /// <summary>
+        /// DCR工位是否可用
+        /// </summary>
+        /// <returns></returns>
+        private bool IsDCRStationValid(string houseName)
+        {
+            string goodsSiteName = "";
+            if (houseName == EnumStoreHouse.A1库房.ToString())
+            {
+                goodsSiteName = AHouseDCRStation.Row.ToString() + "-" + AHouseDCRStation.Col.ToString() + "-" + AHouseDCRStation.Layer.ToString();
+            }
+            else
+            {
+                goodsSiteName = BHouseDCRStation.Row.ToString() + "-" + BHouseDCRStation.Col.ToString() + "-" + BHouseDCRStation.Layer.ToString();
+            }
+            XWEDBAccess.Model.GoodsSiteModel gsModel = xweGsBll.GetModel(houseName, goodsSiteName);
+            if(gsModel==null)
+            {
+                return true;
+            }
+            if(gsModel.TestType== EnumTestType.无.ToString())
+            {
+                return true;
+            }
+            return false;
+                 
         }
         #endregion
 
